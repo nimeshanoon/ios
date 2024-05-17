@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    overflow-y: hidden; /* Allow vertical scrolling only if necessary */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
     width: 100%;
     height: 100%;
 }
@@ -13,7 +13,7 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh);
+    height: 100vh;
     overflow: hidden;
     box-sizing: border-box;
 }
