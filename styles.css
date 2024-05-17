@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: hidden; /* Allow vertical scrolling only if necessary */
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.area {
+    background-color: rgb(101, 92, 92);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    box-sizing: border-box;
+    width: 22rem;
+    height: 30.5rem;
+    border-radius: 8px;
+}
