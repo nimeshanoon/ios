@@ -17,6 +17,8 @@ html, body {
     min-height: -webkit-fill-available;
     overflow: hidden;
     box-sizing: border-box;
+
+    
 }
 
 .area {
@@ -29,4 +31,17 @@ html, body {
     width: 22rem;
     height: 30.5rem;
     border-radius: 8px;
+}
+
+/* Add this media query to target iPhones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        margin-top: -56px;
+    }
+}
+
+@media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+    .container {
+        margin-top: -56px;
+    }
 }
